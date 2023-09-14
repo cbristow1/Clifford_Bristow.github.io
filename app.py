@@ -1,10 +1,22 @@
+#!/usr/bin/env python3py
+
 import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
+from pathlib import Path
 from PIL import Image
 
+cwd = Path.cwd()
+
+# env vars
+contact_form = f"{cwd}/images/zelda.jpg"
+
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
-st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
+st.set_page_config(
+    page_title="My Webpage",
+    page_icon=":tada:",
+    layout="wide"
+)
 
 
 def load_lottieurl(url):
@@ -24,13 +36,12 @@ local_css("style/style.css")
 
 # ---- LOAD ASSETS ----
 lottie_coding = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_ruflv73p.json")
-# img_contact_form = Image.open("images/yt_contact_form.png")
-# img_lottie_animation = Image.open("images/yt_lottie_animation.png")
+img_contact_form = Image.open(contact_form)
 
 # ---- HEADER SECTION ----
 with st.container():
-    st.subheader("How's it going my names Clifford Bristow:wave:")
-    st.title("An up and coming Programmer learning Python from, Oklahoma City")
+    st.subheader("How's it going my name's Clifford Bristow:wave:")
+    st.title("An up and coming Programmer learning Python from Oklahoma City")
     st.write(
         "I am passionate about finding ways to use Python in the field of Finance and Investment Management."
     )
@@ -45,29 +56,27 @@ with st.container():
         st.write("#####")
         st.write(
             """
-            I’ve spent the last 15+ years working with leading influential change agents. 
-            Today, I am an achieved Business Administration Professional with experience in data governance project 
-            coordination and management, showcasing a strong record of analytical prowess. My experience has allowed 
-            me to develop strong business acumen and organizational strategies that strengthen client relations, communications development, 
-            and operational outcomes.
+            I’ve spent the last 15+ years working with leading influential change agents.
+            Today, I am an achieved Business Administration Professional with experience in data governance project
+            coordination and management, showcasing a strong record of analytical prowess. My experience has allowed
+            me to develop strong business acumen and organizational strategies that strengthen client relations, communications development, and operational outcomes.
 
-        I enjoy generating new ideas and devising feasible solutions to 
-        broadly relevant problems, especially in the world of data governance, 
-        risk management, and financial services. My colleagues and 
-        employers describe me as a persuasive, venturesome individual who maintains 
-        a confident and proactive attitude when faced with adversity.
+            I enjoy generating new ideas and devising feasible solutions to
+            broadly relevant problems, especially in the world of data governance,
+            risk management, and financial services. My colleagues and
+            employers describe me as a persuasive, venturesome individual who maintains
+            a confident and proactive attitude when faced with adversity.
 
-Please  feel free to contact me at Clifford.bristow@gmail.com as I welcome the opportunity to connect and discuss how my experience and background may be 
-requested for any speaking opportunities and/or unique business needs.
+            Please  feel free to contact me at Clifford.bristow@gmail.com as I welcome the opportunity to connect and discuss how my experience and background may be
+            requested for any speaking opportunities and/or unique business needs.
 
-Core Competencies:
+            Core Competencies:
 
-- Risk Management 
-- Business Intelligence 
-- Federal Data Governance & Compliance:
-            "
+            - Risk Management
+            - Business Intelligence
+            - Federal Data Governance & Compliance:
 
-            If you're interested in learning more about be fill out 
+            If you're interested in learning more about be fill out
             the reach out to part of the page.
             """
         )
@@ -81,13 +90,13 @@ with st.container():
     st.header("My Projects")
     st.write("##")
     image_column, text_column = st.columns((1, 2))
-    # with image_column:
-    #     st.image(img_lottie_animation)
+    with image_column:
+        st.image(img_contact_form)
     with text_column:
         st.subheader("COMING SOON")
         st.write(
             """
-           
+
             """
         )
         st.markdown("")
@@ -99,7 +108,7 @@ with st.container():
         st.subheader("")
         st.write(
             """
-            
+
             """
         )
         st.markdown("[]()")
