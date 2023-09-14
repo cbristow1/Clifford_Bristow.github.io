@@ -3,7 +3,6 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 from PIL import Image
 
-
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
 st.set_page_config(page_title="My Webpage", page_icon=":tada:", layout="wide")
 
@@ -24,18 +23,18 @@ def local_css(file_name):
 local_css("style/style.css")
 
 # ---- LOAD ASSETS ----
-lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
-img_contact_form = Image.open("images/yt_contact_form.png")
-img_lottie_animation = Image.open("images/yt_lottie_animation.png")
+lottie_coding = load_lottieurl("https://assets10.lottiefiles.com/packages/lf20_ruflv73p.json")
+# img_contact_form = Image.open("images/yt_contact_form.png")
+# img_lottie_animation = Image.open("images/yt_lottie_animation.png")
 
 # ---- HEADER SECTION ----
 with st.container():
-    st.subheader("Hi, I am Clifford :wave:")
-    st.title("A Data Analyst From Germany")
+    st.subheader("How's it going my names Clifford Bristow:wave:")
+    st.title("An up and coming Programmer learning Python from, Oklahoma City")
     st.write(
-        "I am passionate about finding ways to use Python and VBA to be more efficient and effective in business settings."
+        "I am passionate about finding ways to use Python in the field of Finance and Investment Management."
     )
-    st.write("[Learn More >](https://pythonandvba.com)")
+    st.write("[Learn More >](https://www.linkedin.com/in/clifford-bristow-mba-cc-lion/)")
 
 # ---- WHAT I DO ----
 with st.container():
@@ -43,19 +42,36 @@ with st.container():
     left_column, right_column = st.columns(2)
     with left_column:
         st.header("What I do")
-        st.write("##")
+        st.write("#####")
         st.write(
             """
-            On my YouTube channel I am creating tutorials for people who:
-            - are looking for a way to leverage the power of Python in their day-to-day work.
-            - are struggling with repetitive tasks in Excel and are looking for a way to use Python and VBA.
-            - want to learn Data Analysis & Data Science to perform meaningful and impactful analyses.
-            - are working with Excel and found themselves thinking - "there has to be a better way."
+            I’ve spent the last 15+ years working with leading influential change agents. 
+            Today, I am an achieved Business Administration Professional with experience in data governance project 
+            coordination and management, showcasing a strong record of analytical prowess. My experience has allowed 
+            me to develop strong business acumen and organizational strategies that strengthen client relations, communications development, 
+            and operational outcomes.
 
-            If this sounds interesting to you, consider subscribing and turning on the notifications, so you don’t miss any content.
+        I enjoy generating new ideas and devising feasible solutions to 
+        broadly relevant problems, especially in the world of data governance, 
+        risk management, and financial services. My colleagues and 
+        employers describe me as a persuasive, venturesome individual who maintains 
+        a confident and proactive attitude when faced with adversity.
+
+Please  feel free to contact me at Clifford.bristow@gmail.com as I welcome the opportunity to connect and discuss how my experience and background may be 
+requested for any speaking opportunities and/or unique business needs.
+
+Core Competencies:
+
+- Risk Management 
+- Business Intelligence 
+- Federal Data Governance & Compliance:
+            "
+
+            If you're interested in learning more about be fill out 
+            the reach out to part of the page.
             """
         )
-        st.write("[YouTube Channel >](https://youtube.com/c/CodingIsFun)")
+        st.write("[ >]()")
     with right_column:
         st_lottie(lottie_coding, height=300, key="coding")
 
@@ -65,31 +81,28 @@ with st.container():
     st.header("My Projects")
     st.write("##")
     image_column, text_column = st.columns((1, 2))
-    with image_column:
-        st.image(img_lottie_animation)
+    # with image_column:
+    #     st.image(img_lottie_animation)
     with text_column:
-        st.subheader("Integrate Lottie Animations Inside Your Streamlit App")
+        st.subheader("COMING SOON")
         st.write(
             """
-            Learn how to use Lottie Files in Streamlit!
-            Animations make our web app more engaging and fun, and Lottie Files are the easiest way to do it!
-            In this tutorial, I'll show you exactly how to do it
+           
             """
         )
-        st.markdown("[Watch Video...](https://youtu.be/TXSOitGoINE)")
+        st.markdown("")
 with st.container():
     image_column, text_column = st.columns((1, 2))
-    with image_column:
-        st.image(img_contact_form)
+    # with image_column:
+    #     st.image(img_contact_form)
     with text_column:
-        st.subheader("How To Add A Contact Form To Your Streamlit App")
+        st.subheader("")
         st.write(
             """
-            Want to add a contact form to your Streamlit website?
-            In this video, I'm going to show you how to implement a contact form in your Streamlit app using the free service ‘Form Submit’.
+            
             """
         )
-        st.markdown("[Watch Video...](https://youtu.be/FOULV9Xij_8)")
+        st.markdown("[]()")
 
 # ---- CONTACT ----
 with st.container():
@@ -99,7 +112,7 @@ with st.container():
 
     # Documention: https://formsubmit.co/ !!! CHANGE EMAIL ADDRESS !!!
     contact_form = """
-    <form action="https://formsubmit.co/YOUR@MAIL.COM" method="POST">
+    <form action="https://formsubmit.co/clifford.bristow@gmail.com" method="POST">
         <input type="hidden" name="_captcha" value="false">
         <input type="text" name="name" placeholder="Your name" required>
         <input type="email" name="email" placeholder="Your email" required>
