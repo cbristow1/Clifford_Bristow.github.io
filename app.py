@@ -43,7 +43,7 @@ with st.container():
     st.subheader("How's it going my name's Clifford Bristow:wave:")
     st.title("An up and coming Programmer learning Python from Oklahoma City")
     st.write(
-        "I am passionate about finding ways to use Python in the field of Finance and Investment Management."
+        "I am passionate about finding ways to use Python in the field of Data Analysis, Finance and Investment Management."
     )
     st.write("[Learn More >](https://www.linkedin.com/in/clifford-bristow-mba-cc-lion/)")
 
