@@ -41,9 +41,9 @@ img_contact_form = Image.open(contact_form)
 # ---- HEADER SECTION ----
 with st.container():
     st.subheader("How's it going my name's Clifford Bristow:wave:")
-    st.title("An up and coming Programmer learning Python from Oklahoma City")
+    st.title("An up and coming Data Analyst learning Python from Oklahoma City")
     st.write(
-        "I am passionate about finding ways to use Python in the field of Data Analysis, Finance and Investment Management."
+        "🏢 Data-Focused Operations Leader 📋 Lifecycle Management 🤝 Quantitative Analysis 🎈 Business Intelligence Solutions 📈 Root Cause Analysis"
     )
     st.write("[Learn More >](https://www.linkedin.com/in/clifford-bristow-mba-cc-lion/)")
 
@@ -56,28 +56,27 @@ with st.container():
         st.write("#####")
         st.write(
             """
-            I’ve spent the last 15+ years working with leading influential change agents.
-            Today, I am an achieved Business Administration Professional with experience in data governance project
-            coordination and management, showcasing a strong record of analytical prowess. My experience has allowed
-            me to develop strong business acumen and organizational strategies that strengthen client relations, communications development, and operational outcomes.
+            Data-focused leader offering 15+ years driving organizational performance, business insight and strategic growth 
+            through enterprise data strategy development and execution. Extensive expertise performing thorough evaluation of business systems, 
+            data integration, advanced analytics adoption, governance protocols, and reporting metrics translating into actionable insights.
 
-            I enjoy generating new ideas and devising feasible solutions to
-            broadly relevant problems, especially in the world of data governance,
-            risk management, and financial services. My colleagues and
-            employers describe me as a persuasive, venturesome individual who maintains
-            a confident and proactive attitude when faced with adversity.
+            Spearheaded multiple high-impact initiatives implementing methods to enhance data collection, machine learning, quantitative modeling, 
+            and mining revealing trends and opportunities for product and service line improvement. Implemented a data driven strategy that continuously 
+            decreased loans overdue by +2% from November ‘Y19 till present.
 
-            Please  feel free to contact me at Clifford.bristow@gmail.com as I welcome the opportunity to connect and discuss how my experience and background may be
-            requested for any speaking opportunities and/or unique business needs.
+            Future-focused decision makers are able to clearly convey complex data findings, roadmaps and next steps through compelling translations and 
+            visualizations to senior leadership. Dedicated stakeholder partner who progresses KPIs and solutions through collaborative work groups and aligning 
+            data-use policies across business units achieving 98% accuracy.
 
-            Core Competencies:
+            Passionate about leveraging data, analytics, and visibility to accelerate growth. Seeking to bring strengths in process enhancements, project leadership, 
+            operational streamlining, and strategic alignment of systems to a forward-thinking organization. My top skills include Python, Power BI, advanced statistical analysis, 
+            AWS cloud solutions, stakeholder engagement and team mentoring.
 
-            - Risk Management
-            - Business Intelligence
-            - Federal Data Governance & Compliance:
+            Are you seeking to inject more data-driven decision making into your organization? Does your team need an expert in data integration, advanced analytics adoption, and governance protocol implementation? 
+            Contact me to discuss how my expertise can enable fact-based strategies to reduce risks and seize opportunities through business intelligence platforms and data modeling. I am eager to partner with 
+            visionary leaders who want to build insight-fueled, performance-driven enterprises poised for the future through data analytics maturity.
 
-            If you're interested in learning more about be fill out
-            the reach out to part of the page.
+            I look forward to meeting you! You can reach me at clifford.bristow@gmail.com.
             """
         )
         st.write("[ >]()")
