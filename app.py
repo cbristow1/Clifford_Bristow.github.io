@@ -9,7 +9,7 @@ from PIL import Image
 cwd = Path.cwd()
 
 # env vars
-contact_form = f"{cwd}/images/zelda.jpg"
+contact_form = f"{cwd}/images/Profile Picture.jpeg"
 
 # Find more emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
 st.set_page_config(
