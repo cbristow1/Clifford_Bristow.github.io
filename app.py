@@ -89,8 +89,8 @@ with st.container():
     st.header("My Projects")
     st.write("##")
     image_column, text_column = st.columns((1, 2))
-    with image_column:
-        st.image(img_contact_form)
+    #with image_column:
+     #   st.image(img_contact_form)
     with text_column:
         st.subheader("COMING SOON")
         st.write(
